@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="calculation app">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/main.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+
+</head>
+<body>
+
+
+  <div class="calc">
+    <form action="#">
+    <label for="screen" class="head">
+      <span>calc</span>
+      <div class="themes">
+        <div>theme</div>
+        <ul>
+          <li class="active theme one"></li>
+          <li class="theme two"></li>
+          <li class="theme three"></li>
+        </ul>
+      </div>
+    </label>
+    <div class="input-field">
+      <input type="text" id="screen" class="screen">
+    </div>
+    <div class="btns">
+      <button class="btn btn-light" data-num="7">7</button>
+      <button class="btn btn-light" data-num="8">8</button>
+      <button class="btn btn-light" data-num="9">9</button>
+      <button class=" del" id="del" >del</button>
+
+      <button class="btn btn-light" data-num="4">4</button>
+      <button class="btn btn-light" data-num="5">5</button>
+      <button class="btn btn-light" data-num="6">6</button>
+      <button class="btn btn-light" data-num="+">+</button>
+
+      <button class="btn btn-light" data-num="1">1</button>
+      <button class="btn btn-light"data-num="2">2</button>
+      <button class="btn btn-light"data-num="3">3</button>
+      <button class="btn btn-light" data-num="-">-</button>
+
+
+      <button class="btn btn-light" data-num=".">.</button>
+      <button class="btn btn-light" data-num="0">0</button>
+      <button class="btn btn-light" data-num="/">/</button>
+      <button class="btn btn-light" data-num="*">*</button>
+
+      <button class="  reset"  id="reset">reset</button>
+      <button class="  equal" id="equal" >=</button>
+
+    </form>
+    </div>
+  </div>
+   <!-- jquery -->
+  <script src="js/jquery.js"></script>
+  <!-- main js file -->
+  <script  src="js/app.js"></script>
+ 
+  
+</body>
+</html>
